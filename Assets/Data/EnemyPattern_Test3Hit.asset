@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dad9373ea0554ed4eb98e3b68f177109, type: 3}
+  m_Name: EnemyPattern_Test3Hit
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyPattern
+  attacks:
+  - telegraphTime: 0.8
+    startupTime: 0.3
+    damage: 1
+  - telegraphTime: 0.5
+    startupTime: 0.3
+    damage: 1
+  - telegraphTime: 1
+    startupTime: 0.2
+    damage: 1
